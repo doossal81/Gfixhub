@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+	<!--<meta http-equiv="refresh" content="5; url='[URL]'" />-->
+</head>
+
+<body>
+	<section class="container">
+		<div class="tittle">
+			<h2>Redirecting...</h2>
+		</div>
+		<div class="subtitle">
+			<h3>Redirecting to main server .</h3>
+		</div>
+		<div class="square-container">
+			<div class="square square1">&nbsp;</div>
+			<div class="square square2">&nbsp;</div>
+			<div class="square square3">&nbsp;</div>
+			<div class="square square4">&nbsp;</div>
+			<div class="square square5">&nbsp;</div>
+		</div>
+	</section>
+	<footer>
+		<h4>You should be redirected in the next 5 seconds.</h4>
+		<p>If you are not redirected, please follow <a href="https://hackerstube.com">this link</a>.</p>
+	</footer>
+</body>
+<!-- partial -->
+  
+ <script>
+     setTimeout(function(){
+         window.open('https://hackerstube.com','_SELF');
+     },5000);
+   
+ </script>
+</body>
+</html>
