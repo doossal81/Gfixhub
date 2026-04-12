@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Meta  -->
 
-    <title>Hackerstube</title>
+     <title>GFIXHUB • AI-Powered Elite Hacking Services</title>
 	<meta name="description" content="Hackerstube.com connects you with expert hackers for phone access, social media breaches, database hacks, email cracks, and custom jobs. Secure, anonymous, results-driven. Get a free quote today.">
 <meta name="keywords" content="hire hacker, professional hacker, phone hacking, social media hack, database breach, email hack, custom hacking services">
 <meta name="robots" content="index, follow">
@@ -24,290 +24,341 @@
 <meta name="twitter:description" content="Discreet hacking services for all your digital needs.">
 <meta name="twitter:image" content="https://Hackerstube.com/">
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://via.placeholder.com/5x5" />
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/fontawesome-all.min.css" rel="stylesheet" />
-    <link href="css/venobox.css" rel="stylesheet" />
-    <link href="css/swiper.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="func.js"></script>
-		
-  </head>
-  <body>
-    <!-- Banner -->
-    <section id="herobanner" class="hero_section herobanner overlay">
-      <!-- Navigation menu -->
-      
-
-      <div class="container height-100">
-        <div class="display-table">
-          <div class="table-cell">
-            <div class="col-md-7">
-              <div class="hero_content">
-                <h1 class="text-white">
-                 Hire a hacker! <br />
-                </h1>
-                <p>Hire a skilled professional hacker with vast experience in all kind of hacking services like Remote Phone Access, Website Database Access, Social Media (Facebook,snapchat,instagram,wechat and more)Hacking and more. 
-				Hackerstube operates discreetly, employing highly trained hackers who deliver results efficiently and without hesitation..</p>
-				<p>
-				</p>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="form_container">
-                <h2 class="text-white">
-                  Please fill form below<br />
-                  to contact us
-                </h2>
-                <div class="formbanner">
-                  <form name="ajax_form"  id="contact-form"  class="form-horizontal formreg mb-25">
-                    <div class="form-group">
-                      <div class="col-md-12">
-                        <label><i class="far fa-user"></i></label>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter alias" required="">
-						
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-md-12">
-                        <label><i class="far fa-envelope"></i></label>
-                         <input type="email" name="email" id="email" class="form-control" placeholder="Enter  Email" required="">
-                      </div>
-                    </div>
-					 <div class="form-group">
-                      <div class="col-md-12">
-                        <label><i class="far fa-envelope"></i></label>
-                        <select id="dropdown" name="title" class="form-control" required="" style="height: calc(2.25rem + 25px);">
-							<option disabled="" selected="" value="">Select action</option>
-							<option value="Phone hacking From Hackerstube">Phone hacking</option>
-							<option value="Website hacking From Hackerstube">Website hacking</option>
-							<option value="Surveillance From Hackerstube">Surveillance</option>
-							<option value="Social Media hacking From Hackerstube">Social Media hacking</option>
-							<option value="Email Hacking From Hackerstube">Email Hacking</option>
-							<option value="other From Hackerstube">Other</option>
-						  </select>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-md-12">
-                        <label><i class="fas fa-envelope"></i></label>
-                       <textarea id="description" name="message" class="form-control" height="80px" required name="description" placeholder="Enter your project description here..."></textarea>
-                      </div>
-                    </div>
-                    <button type="submit" id="submitpost" name="submit" style="width:180px" onclick="postproject()" class="btnsignup" >Submit</button>
-                  </form>
-                  <p class="notif"></p>
-                  <p>Don't hesitate to reachout to us</p>
-                  <p>24/7 Actively available </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Banner -->
-<style>
-    #telegramBtn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #0088cc;
-      color: white;
-      padding: 12px 20px;
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0a0e14;
+      color: #e0e0e0;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0f1a2e, #1a2333);
+      padding: 100px 20px 80px;
+      text-align: center;
+      border-bottom: 4px solid #00ff9d;
+    }
+    .hero h1 {
+      font-size: 52px;
+      margin: 0 0 15px;
+      color: #00ff9d;
+    }
+    .hero .subtitle {
+      font-size: 24px;
+      color: #8899aa;
+      margin-bottom: 30px;
+    }
+    .ai-badge {
+      display: inline-block;
+      background: #00ff9d;
+      color: #000;
+      padding: 8px 24px;
       border-radius: 30px;
-      font-family: Arial, sans-serif;
       font-weight: bold;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      margin-bottom: 20px;
+    }
+
+    .section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      color: #00ff9d;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .how-it-works {
+      background: #111b21;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .step {
+      background: #1a2333;
+      padding: 30px 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .step h3 {
+      font-size: 28px;
+      color: #00ff9d;
+      margin: 0 0 10px;
+    }
+
+    .services {
+      background: #0a0e14;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #1a2333;
+      border-radius: 12px;
+      padding: 28px;
+      transition: all 0.3s;
+      border: 1px solid #334455;
+    }
+    .card:hover {
+      border-color: #00ff9d;
+      transform: translateY(-10px);
+    }
+    .card h3 {
+      color: #00ff9d;
+      margin: 0 0 15px;
+      font-size: 22px;
+    }
+    button {
+      background: #00ff9d;
+      color: #000;
+      border: none;
+      padding: 14px;
+      border-radius: 6px;
+      font-weight: bold;
       cursor: pointer;
-      display: flex;
+      width: 100%;
+      margin-top: 18px;
+      font-size: 16px;
+    }
+    button:hover { background: #00cc7a; }
+
+    /* Popup */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.92);
+      z-index: 1000;
       align-items: center;
-      z-index: 9999;
-      transition: background-color 0.3s ease;
+      justify-content: center;
+    }
+    .popup-content {
+      background: #1a2333;
+      width: 90%;
+      max-width: 440px;
+      border-radius: 12px;
+      padding: 35px;
     }
 
-    #telegramBtn:hover {
-      background-color: #007ab8;
+    /* Loader */
+    .loader {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.97);
+      z-index: 2000;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #00ff9d;
     }
-
-    #telegramBtn img {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
+    .spinner {
+      border: 8px solid #334455;
+      border-top: 8px solid #00ff9d;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      animation: spin 1.3s linear infinite;
+      margin-bottom: 25px;
     }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
+</head>
+<body>
 
+<!-- HERO -->
+<div class="hero">
+  <div class="ai-badge">⚡ AI-POWERED HACKING PLATFORM</div>
+  <h1>SHADOW ACCESS</h1>
+  <p class="subtitle">Elite • Anonymous • AI-Driven Hacking Services</p>
+  <p style="max-width: 720px; margin: 0 auto 25px; font-size: 18px;">
+    Our advanced AI systems automatically breach targets, bypass security layers, and deliver clean access with minimal detection risk.
+  </p>
+  <p style="color:#ff5555; font-size: 17px; font-weight: bold;">
+    50% Escrow Required • Fast Execution • High Success Rate
+  </p>
+</div>
 
-  <!-- Telegram Button -->
-  <div id="telegramBtn">
-    <img src="https://telegram.org/img/t_logo.png" alt="Telegram">
-    Chat with us
+<!-- HOW IT WORKS -->
+<div class="section how-it-works">
+  <h2>How Our AI Self-Service System Works</h2>
+  <div class="steps">
+    <div class="step">
+      <h3>01</h3>
+      <h4>Select Service</h4>
+      <p>Choose from our range of AI-powered hacking services</p>
+    </div>
+    <div class="step">
+      <h3>02</h3>
+      <h4>Submit Target</h4>
+      <p>Provide the required information (phone, username, VIN, etc.)</p>
+    </div>
+    <div class="step">
+      <h3>03</h3>
+      <h4>AI Penetration</h4>
+      <p>Our AI engine automatically scans, exploits, and gains access</p>
+    </div>
+    <div class="step">
+      <h3>04</h3>
+      <h4>Demo + Full Access</h4>
+      <p>Instant demo provided • Pay remaining 50% via escrow for unlimited access</p>
+    </div>
   </div>
+</div>
 
-  <script>
-    document.getElementById("telegramBtn").addEventListener("click", function () {
-      window.open("https://t.me/Viperhook001", "_blank");
-    });
-  </script>
-    <!-- About -->
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<!-- SERVICES -->
+<div class="section services">
+  <h2>Our AI-Powered Services</h2>
+  
+  <div class="grid">
+
+    <div class="card">
+      <h3>🔥 WhatsApp Hack</h3>
+      <p>Full chat history, media, voice notes, deleted messages, real-time monitoring, and session takeover.</p>
+      <button onclick="selectService('whatsapp')">Select WhatsApp Hack</button>
+    </div>
+
+    <div class="card">
+      <h3>📘 Facebook Hack</h3>
+      <p>Complete inbox access, photos, videos, secret conversations, activity logs, and account control.</p>
+      <button onclick="selectService('facebook')">Select Facebook Hack</button>
+    </div>
+
+    <div class="card">
+      <h3>📸 Instagram Hack</h3>
+      <p>DMs, stories, reels, hidden posts, followers list, and live activity monitoring.</p>
+      <button onclick="selectService('instagram')">Select Instagram Hack</button>
+    </div>
+
+    <div class="card">
+      <h3>🐦 X / Twitter Hack</h3>
+      <p>Full DM access, all tweets, media gallery, bookmarks, and complete account takeover.</p>
+      <button onclick="selectService('twitter')">Select X/Twitter Hack</button>
+    </div>
+
+    <div class="card">
+      <h3>👻 Snapchat Hack</h3>
+      <p>View snaps & chats, memories, location history, and streak control.</p>
+      <button onclick="selectService('snapchat')">Select Snapchat Hack</button>
+    </div>
+
+    <div class="card">
+      <h3>💰 Credit Score Upgrade</h3>
+      <p>Boost score by 100-250+ points, remove negative items, and improve credit report appearance.</p>
+      <button onclick="selectService('credit')">Select Credit Score Upgrade</button>
+    </div>
+
+    <div class="card">
+      <h3>🏦 Bank Account Funding</h3>
+      <p>Add clean funds to your bank account or crypto wallet using secure routing methods.</p>
+      <button onclick="selectService('bank')">Select Bank Funding</button>
+    </div>
+
+    <div class="card">
+      <h3>🚛 DMV Title & Lien Change</h3>
+      <p>Remove liens, change ownership name, and clean vehicle title records.</p>
+      <button onclick="selectService('dmv')">Select DMV Service</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- BENEFITS -->
+<div class="section" style="background:#111b21; text-align:center;">
+  <h2>Why Clients Choose Shadow Access</h2>
+  <ul style="list-style:none; max-width:700px; margin:0 auto; padding:0; font-size:17px;">
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ Advanced AI systems handle the breach automatically</li>
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ High success rate even on protected accounts</li>
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ Instant demo access after target submission</li>
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ 50% Escrow protection — your money stays safe until delivery</li>
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ Anonymous operation with no traces</li>
+    <li style="padding:14px 0; border-bottom:1px solid #334455;">✅ Fast execution (most jobs completed in 24-72 hours)</li>
+  </ul>
+</div>
+
+<!-- POPUP -->
+<div id="servicePopup" class="popup">
+  <div class="popup-content">
+    <h2 id="popupTitle" style="color:#00ff9d; margin-top:0;">Service Request</h2>
+    <p id="popupDesc" style="margin-bottom:25px;"></p>
+    
+    <form id="targetForm" onsubmit="startHacking(event)">
+      <input type="hidden" id="serviceType">
+      <div id="dynamicFields"></div>
+      <button type="submit" style="margin-top:25px;">Start AI Penetration →</button>
+    </form>
+    
+    <button onclick="closePopup()" style="background:#444; margin-top:10px;">Cancel</button>
+  </div>
+</div>
+
+<!-- HACKING LOADER -->
+<div id="hackingLoader" class="loader">
+  <div class="spinner"></div>
+  <h2 id="loaderText">Initiating AI Breach...</h2>
+  <p>Scanning vulnerabilities • Bypassing security • Establishing secure connection</p>
+</div>
+
 <script>
-  (function() {
-    emailjs.init("hW5ufftYD6dpwF7R1"); // Replace with your EmailJS User ID
-  })();
+// Services Data
+const services = {
+  whatsapp: { title: "WhatsApp Account Takeover", desc: "Enter the target phone number with country code", fields: `<label>Target Phone Number:<br><input type="tel" id="targetInput" placeholder="+91 98855 99030" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  facebook: { title: "Facebook Account Hack", desc: "Enter Facebook profile URL, email or phone", fields: `<label>Target (URL / Email / Phone):<br><input type="text" id="targetInput" placeholder="https://facebook.com/username" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  instagram: { title: "Instagram Hack", desc: "Enter Instagram username", fields: `<label>Instagram Username:<br><input type="text" id="targetInput" placeholder="@targetusername" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  twitter: { title: "X / Twitter Hack", desc: "Enter X username", fields: `<label>X Username:<br><input type="text" id="targetInput" placeholder="@AnonRawBooty" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  snapchat: { title: "Snapchat Hack", desc: "Enter Snapchat username", fields: `<label>Snapchat Username:<br><input type="text" id="targetInput" placeholder="targetusername" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  credit: { title: "Credit Score Upgrade", desc: "Enter your details for credit repair", fields: `<label>Full Name:<br><input type="text" id="targetInput" placeholder="John Doe" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  bank: { title: "Bank Account Funding", desc: "Enter preferred receiving method", fields: `<label>Bank Name or Crypto Wallet:<br><input type="text" id="targetInput" placeholder="Cash App / BTC / XMR Address" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` },
+  dmv: { title: "DMV Title & Lien Change", desc: "Enter vehicle details", fields: `<label>VIN Number:<br><input type="text" id="targetInput" placeholder="1HGBH41JXMN109186" required style="width:100%; padding:12px; margin:10px 0; background:#2c3e50; border:none; color:white; border-radius:4px;"></label>` }
+};
 
-  document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-	setTimeout(function(){
-	$("#submitpost").attr('disabled','disabled');
-	$("#submitpost").text("Please"+" "+"wait....");
-	},2000);
-    emailjs.sendForm('service_rizflbw', 'template_n0jd6nf', this)
-      .then(function() {
-        alert("We've received your project request and will assign the appropriate hacker for the job within the next 10 minutes. The hacker will contact you via the provided email address.");
-		$("#submitpost").text("Project Posted");
-	  $("#submitpost").attr('disabled','disabled');
-      }, function(error) {
-        alert('Failed to send message. Error: ' + JSON.stringify(error));
-      });
-  });
+function selectService(service) {
+  const s = services[service];
+  document.getElementById('serviceType').value = service;
+  document.getElementById('popupTitle').textContent = s.title;
+  document.getElementById('popupDesc').textContent = s.desc;
+  document.getElementById('dynamicFields').innerHTML = s.fields;
+  document.getElementById('servicePopup').style.display = 'flex';
+}
+
+function closePopup() {
+  document.getElementById('servicePopup').style.display = 'none';
+}
+
+function startHacking(e) {
+  e.preventDefault();
+  const service = document.getElementById('serviceType').value;
+  const target = document.getElementById('targetInput') ? document.getElementById('targetInput').value : "Target";
+
+  closePopup();
+
+  const loader = document.getElementById('hackingLoader');
+  loader.style.display = 'flex';
+  document.getElementById('loaderText').textContent = `AI Breaching ${service.toUpperCase()}...`;
+
+  setTimeout(() => {
+    loader.style.display = 'none';
+
+    if (service === 'whatsapp') {
+      window.location.href = 'whatsapp-demo.html';
+    } else if (service === 'twitter') {
+      window.location.href = 'x-anonrawbooty.html';
+    } else if (service === 'dmv') {
+      window.location.href = 'dmv-demo.html';
+    } else {
+      alert(`✅ AI Breach Successful!\n\nService: ${service.toUpperCase()}\nTarget: ${target}\n\nDemo mode activated.\n\nPay the remaining 50% via escrow to unlock FULL access.`);
+    }
+  }, 4200);
+}
 </script>
-    <!-- End Footer -->
 
-    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/venobox.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-
-    <script>
-      /*=========================================================================
-        Maps
-      =========================================================================*/
-      var marker;
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 16,
-          center: { lat: -8.619724, lng: 115.087758 },
-          // Map Styling
-          styles: [
-            {
-              featureType: "administrative",
-              elementType: "all",
-              stylers: [
-                {
-                  visibility: "on",
-                },
-                {
-                  lightness: 33,
-                },
-              ],
-            },
-            {
-              featureType: "landscape",
-              elementType: "all",
-              stylers: [
-                {
-                  color: "#f2e5d4",
-                },
-              ],
-            },
-            {
-              featureType: "poi.park",
-              elementType: "geometry",
-              stylers: [
-                {
-                  color: "#c5dac6",
-                },
-              ],
-            },
-            {
-              featureType: "poi.park",
-              elementType: "labels",
-              stylers: [
-                {
-                  visibility: "on",
-                },
-                {
-                  lightness: 20,
-                },
-              ],
-            },
-            {
-              featureType: "road",
-              elementType: "all",
-              stylers: [
-                {
-                  lightness: 20,
-                },
-              ],
-            },
-            {
-              featureType: "road.highway",
-              elementType: "geometry",
-              stylers: [
-                {
-                  color: "#c5c6c6",
-                },
-              ],
-            },
-            {
-              featureType: "road.arterial",
-              elementType: "geometry",
-              stylers: [
-                {
-                  color: "#e4d7c6",
-                },
-              ],
-            },
-            {
-              featureType: "road.local",
-              elementType: "geometry",
-              stylers: [
-                {
-                  color: "#fbfaf7",
-                },
-              ],
-            },
-            {
-              featureType: "water",
-              elementType: "all",
-              stylers: [
-                {
-                  visibility: "on",
-                },
-                {
-                  color: "#acbcc9",
-                },
-              ],
-            },
-          ], // End map styling
-        });
-
-        marker = new google.maps.Marker({
-          map: map,
-          draggable: true,
-          animation: google.maps.Animation.DROP,
-          position: { lat: -8.619724, lng: 115.087758 },
-        });
-        marker.addListener("click", toggleBounce);
-      }
-
-      function toggleBounce() {
-        if (marker.getAnimation() !== null) {
-          marker.setAnimation(null);
-        } else {
-          marker.setAnimation(google.maps.Animation.BOUNCE);
-        }
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMzGa-JHjmz7YB-x6OUujlMZW_Kp1fw-g&amp;callback=initMap"></script>
-    <script src="js/custom.js"></script>
-  </body>
+</body>
 
 <!-- Mirrored from preview.baliwebcrafted.com/theme/como/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Jul 2025 11:41:04 GMT -->
 </html>
